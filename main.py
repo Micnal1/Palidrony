@@ -8,9 +8,9 @@ def palidrony(word):
     else:
         return False
 
-word =True
-
-while bool(word) == True:
+while True:
   word = input("give me your word\n")
   if bool(word) == True:
     print(palidrony(word))
+  else:
+    break
